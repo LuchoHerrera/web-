@@ -306,7 +306,7 @@ table {
     max-width: 900px;
     width: 100%;
     text-align: center;
-    margin: 20px;
+    margin: 5px;
     position: relative; /* Para el posicionamiento del pseudo-elemento */
     overflow: hidden; /* Para asegurar que el pseudo-elemento no se salga del card */
 }

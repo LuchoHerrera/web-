@@ -14,7 +14,7 @@ header {
     color: white;
     padding: 6rem;
     text-align: center;
-    width: 96%;
+    width: 87%;
     background: url('proyecto30.jpg') no-repeat center center;
     background-size: cover;
 }
@@ -117,6 +117,43 @@ header {
     animation-delay: 0s;
     animation-duration: 11s;
 }
+
+/* Estilos para los videos de actividades de fin de semana */
+.video-section {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.video-section h2 {
+    color: #F9A73E; /* Color del título */
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.video-container iframe {
+    width: 560px;
+    height: 315px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos responsivos */
+@media (max-width: 900px) {
+    .video-container iframe {
+        width: 100%;
+        max-width: 560px;
+        height: auto;
+    }
+}
+
 
 
 @keyframes animate {
@@ -302,10 +339,11 @@ table {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding:   10px;
-    max-width: 900px;
+    padding: 60px;
+    max-width: 1100px;
     width: 100%;
     text-align: center;
+    margin: 20px;
     position: relative; /* Para el posicionamiento del pseudo-elemento */
     overflow: hidden; /* Para asegurar que el pseudo-elemento no se salga del card */
 }
